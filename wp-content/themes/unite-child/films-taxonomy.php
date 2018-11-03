@@ -41,3 +41,40 @@ function register_post_type_films()
         'show_in_rest'  => false,
     ]);
 }
+
+add_action('init', 'register_film_taxonomy', 0);
+
+/**
+ * Registering film taxonomy: Genres, Countries, Years and Actors
+ */
+function register_film_taxonomy()
+{
+    $taxonomies = [
+        'genre'   => ['singular' => 'Genre', 'plural' => 'Genres'],
+        'country' => ['singular' => 'Country', 'plural' => 'Countries'],
+        'year'    => ['singular' => 'Year', 'plural' => 'Years'],
+        'actor'   => ['singular' => 'Actor', 'plural' => 'Actors']
+    ];
+
+    foreach ($taxonomies as $taxonomy => $data) {
+        register_taxonomy($taxonomy, 'film', [
+            'labels'            => [
+                'name'              => _x($data['plural'], 'taxonomy general name', 'textdomain'),
+                'singular_name'     => _x($data['singular'], 'taxonomy singular name', 'textdomain'),
+                'search_items'      => __('Search ' . $data['plural'], 'textdomain'),
+                'all_items'         => __('All ' . $data['plural'], 'textdomain'),
+                'parent_item'       => __('Parent ' . $data['singular'], 'textdomain'),
+                'parent_item_colon' => __('Parent ' . $data['singular'] . ':', 'textdomain'),
+                'edit_item'         => __('Edit ' . $data['singular'], 'textdomain'),
+                'update_item'       => __('Update ' . $data['singular'], 'textdomain'),
+                'add_new_item'      => __('Add New ' . $data['singular'], 'textdomain'),
+                'new_item_name'     => __('New ' . $data['singular'] . ' Name', 'textdomain'),
+                'menu_name'         => __($data['plural'], 'textdomain'),
+            ],
+            'show_ui'           => true,
+            'show_admin_column' => true,
+            'query_var'         => true,
+            'rewrite'           => ['slug' => $taxonomy]
+        ]);
+    }
+}
