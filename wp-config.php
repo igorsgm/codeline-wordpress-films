@@ -22,10 +22,10 @@
 /** The name of the database for WordPress */
 define('DB_NAME', 'codeline_wordpress_films');
 
-/** MySQL database username */
+/** MySQL database username - localhost */
 define('DB_USER', 'root');
 
-/** MySQL database password */
+/** MySQL database password - localhost*/
 define('DB_PASSWORD', 'root');
 
 /** MySQL hostname */
