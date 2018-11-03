@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Tempo de geração: 03/11/2018 às 20:09
+-- Tempo de geração: 03/11/2018 às 20:20
 -- Versão do servidor: 10.2.15-MariaDB
 -- Versão do PHP: 7.2.5
 
@@ -21,6 +21,8 @@ SET time_zone = "+00:00";
 --
 -- Banco de dados: `codeline_wordpress_films`
 --
+CREATE DATABASE IF NOT EXISTS `codeline_wordpress_films` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
+USE `codeline_wordpress_films`;
 
 -- --------------------------------------------------------
 
@@ -323,7 +325,7 @@ INSERT INTO `wp_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUE
 (38, 19, 'Ticket Price', '4.50'),
 (39, 21, 'Release Date', '19 February 2015'),
 (40, 21, 'Ticket Price', '6.50'),
-(41, 21, 'post_views_count', '17'),
+(41, 21, 'post_views_count', '18'),
 (42, 23, '_edit_lock', '1541274150:1'),
 (43, 23, '_customize_restore_dismissed', '1'),
 (44, 24, '_wp_trash_meta_status', 'publish'),
