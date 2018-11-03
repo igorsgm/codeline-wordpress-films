@@ -2,6 +2,7 @@
 
 // Film Post Types and taxonomies
 require __DIR__ . '/films-taxonomy.php';
+require __DIR__ . '/last_films_shortcode.php';
 
 function get_film_custom_info($postId)
 {
