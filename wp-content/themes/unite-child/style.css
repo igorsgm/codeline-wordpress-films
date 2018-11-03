@@ -9,3 +9,70 @@ Version: 1.0.0
 Text Domain: unite-child
 */
 @import url('../unite/style.css');
+
+/* film-custom-info in feed */
+dl.film-custom-info {
+    font-size: 12px;
+}
+
+dl.film-custom-info > dt,
+dl.film-custom-info > dd {
+    display: inline;
+}
+
+dl.film-custom-info > dt:not(:first-child) {
+    margin-left: 2rem;
+}
+
+/* film-custom-info on entry page */
+.single-film dl.film-custom-info {
+    padding-top: 1rem;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    font-size: inherit;
+}
+
+.single-film dl.film-custom-info dt {
+    float: left;
+    clear: left;
+    width: 130px;
+    white-space: nowrap;
+    margin: 0;
+    display: block;
+}
+
+.single-film dl.film-custom-info dd {
+    float: left;
+    margin-bottom: 1rem;
+    display: block;
+}
+
+.single-film dl.film-custom-info:after {
+    content: ' ';
+    display: table;
+    clear: both;
+}
+
+/* Display Posts widget */
+.last-films-listing {
+    list-style: none;
+    line-height: 1.2;
+}
+
+.last-films-listing .listing-item {
+    margin-bottom: 1rem;
+}
+
+.last-films-listing .listing-item > a {
+    display: flex;
+    align-items: center;
+}
+
+.last-films-listing .listing-item .image {
+    margin-right: 10px;
+}
+
+.last-films-listing .listing-item .image > img {
+    width: 50px;
+    height: 50px;
+}
