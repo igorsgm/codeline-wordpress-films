@@ -4,11 +4,11 @@ This is a test assignment of Codeline which covers basic functionality of WordPr
 
 ##### Main Screen
 
-![Codeline Wordpress Films](https://raw.githubusercontent.com/igorsgm/codeline-wordpress-films/master/main-screen.png?token=ANeas7SbKPbECd9YXBXuL0hr9r4Jhvgrks5b5y74wA%3D%3D)
+![Codeline Wordpress Films](https://raw.githubusercontent.com/igorsgm/codeline-wordpress-films/master/main-screen.png)
 
 ##### Admin Films Screen
 
-![Codeline Wordpress Films Admin](https://raw.githubusercontent.com/igorsgm/codeline-wordpress-films/master/admin-page.png?token=ANeas2QKhCh2laEc1eJ_cFyxh9H1TM1cks5b5zL3wA%3D%3D)
+![Codeline Wordpress Films Admin](https://raw.githubusercontent.com/igorsgm/codeline-wordpress-films/master/admin-page.png)
 
 ## Getting Started and Configuring
 
