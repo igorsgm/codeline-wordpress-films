@@ -1,23 +1,23 @@
-# Codeline Wordpress Films
+# Wordpress Films
 
-This is a test assignment of Codeline which covers basic functionality of WordPress. If you know that, you can do almost everything in WordPress. 
+This project covers basic functionality of WordPress. If you know that, you can do almost everything in WordPress. 
 
 ##### Main Screen
 
-![Codeline Wordpress Films](https://raw.githubusercontent.com/igorsgm/codeline-wordpress-films/master/main-screen.png)
+![Wordpress Films](https://raw.githubusercontent.com/igorsgm/wordpress-films/master/main-screen.png)
 
 ##### Admin Films Screen
 
-![Codeline Wordpress Films Admin](https://raw.githubusercontent.com/igorsgm/codeline-wordpress-films/master/admin-page.png)
+![Wordpress Films Admin](https://raw.githubusercontent.com/igorsgm/wordpress-films/master/admin-page.png)
 
 ## Getting Started and Configuring
 
 
 ```
-git clone https://github.com/igorsgm/codeline-wordpress-films.git
+git clone https://github.com/igorsgm/wordpress-films.git
 ```
 
-Once you have cloned this repository, run the [codeline_wordpress_films.sql](https://github.com/igorsgm/codeline-wordpress-films/blob/master/codeline_wordpress_films.sql) dump in your database and change de database variables in wp-config.php.
+Once you have cloned this repository, run the [wordpress_films.sql](https://github.com/igorsgm/wordpress-films/blob/master/codeline_wordpress_films.sql) dump in your database and change de database variables in wp-config.php.
 
 
 #### Login access
